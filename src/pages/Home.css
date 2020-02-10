@@ -1,0 +1,55 @@
+body {
+    margin: 0 30px 0 30px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.pinkAccent {
+    color: #F7B2AD;
+}
+
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+#arrow-down {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  animation: jump 5s infinite;
+}
+#arrow-down i {
+  content: '\f0a8';
+  font-family: 'FontAwesome';
+  font-size: 80px;
+  transition: 0.3s ease-in-out;
+}
+#arrow-down i:hover {
+  opacity: 0.7;
+  transition: 0.3s ease-out;
+}
