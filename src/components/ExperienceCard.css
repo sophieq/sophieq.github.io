@@ -1,0 +1,55 @@
+.ExperienceCard {
+  width: 100%;
+  border-style: solid;
+  border-color: #2fb7ec;
+  border-radius: 10px;
+  border-width: 5px;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.image-background-color {
+  background-color: #2fb7ec;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  background-position: center;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+.content-container {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin: 0;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.card-body-style {
+  border-width: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

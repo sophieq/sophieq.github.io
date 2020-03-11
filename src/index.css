@@ -1,6 +1,5 @@
 body {
-  margin: 0;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,10 +1,14 @@
-body {
-    margin: 0 30px 0 30px;
+.headerContainer {
+    margin-top: 30px;
     font-weight: normal;
     font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 100px;
 }
 
-h1 {
+.headerContainer .header h1{
     font-weight: 500;
     font-size: 48px;
     text-transform: capitalize;
@@ -13,12 +17,6 @@ h1 {
 .header {
     display: flex;
     flex-direction: column;
-}
-
-.headerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 .pinkAccent {
