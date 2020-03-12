@@ -8,7 +8,7 @@
     margin-bottom: 100px;
 }
 
-.headerContainer .header h1{
+.headerContainer .header h1 {
     font-weight: 500;
     font-size: 48px;
     text-transform: capitalize;
@@ -20,34 +20,34 @@
 }
 
 .pinkAccent {
-    color: #F7B2AD;
+    color: #f7b2ad;
 }
 
 @keyframes jump {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 50px;
-  }
-  100% {
-    top: 0;
-  }
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 50px;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 #arrow-down {
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  animation: jump 5s infinite;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    animation: jump 5s infinite;
 }
 #arrow-down i {
-  content: '\f0a8';
-  font-family: 'FontAwesome';
-  font-size: 80px;
-  transition: 0.3s ease-in-out;
+    content: "\f0a8";
+    font-family: "FontAwesome";
+    font-size: 80px;
+    transition: 0.3s ease-in-out;
 }
 #arrow-down i:hover {
-  opacity: 0.7;
-  transition: 0.3s ease-out;
+    opacity: 0.7;
+    transition: 0.3s ease-out;
 }
