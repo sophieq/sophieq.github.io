@@ -7,6 +7,7 @@ import {
     faExternalLinkAlt
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
+import ProjectsPreview from "./pages/ProjectsPreview";
 
 library.add(faChevronDown, faExternalLinkAlt);
 
@@ -15,6 +16,7 @@ function App() {
         <div className="App">
             <Home></Home>
             <Experience></Experience>
+            <ProjectsPreview></ProjectsPreview>
         </div>
     );
 }

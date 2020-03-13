@@ -19,7 +19,7 @@ function ExperienceCard(props) {
                 className="image-background-color"
                 style={{ backgroundColor: props.color }}
             >
-                <img className="image" src={logo} alt="ProductImage"></img>
+                <img className="image" src={logo} alt="Company Logo"></img>
             </div>
             <div className="card-body">
                 <h2>{props.company}</h2>
@@ -32,11 +32,17 @@ function ExperienceCard(props) {
                 <div className="footer">
                     <div className="skills-container">{listSkills}</div>
                     <div className="link-div">
-                        <FontAwesomeIcon
-                            icon="external-link-alt"
-                            className="link"
-                            style={{ color: props.color }}
-                        />
+                        <a
+                            href={props.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FontAwesomeIcon
+                                icon="external-link-alt"
+                                className="link"
+                                style={{ color: props.color }}
+                            />
+                        </a>
                     </div>
                 </div>
                 <div className="see-more-container" onClick={toggle}>

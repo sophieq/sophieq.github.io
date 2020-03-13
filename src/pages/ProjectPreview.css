@@ -1,0 +1,11 @@
+.view-all-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.view-all {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: end;
+    color: black;
+    border-bottom: 3px solid #f7b2ad;
+}

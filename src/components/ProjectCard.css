@@ -1,0 +1,15 @@
+.ProjectCard {
+    width: 100%;
+    border-color: #f7b2ad;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin: 35px 0;
+}
+
+.link {
+    color: #f7b2ad;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceCard from "../components/ExperienceCard";
-import { ExperienceData } from "../utils/ExperienceSpec.js";
+import { ExperienceData } from "../specs/ExperienceSpec.js";
+import "./Experience.css";
 
 function Experience() {
     const experienceCards = ExperienceData.map(data => (
@@ -11,9 +12,15 @@ function Experience() {
             description={data.description}
             skills={data.skills}
             color={data.color}
+            link={data.link}
         ></ExperienceCard>
     ));
-    return <div>{experienceCards}</div>;
+    return (
+        <div>
+            <div className="title">experience.</div>
+            {experienceCards}
+        </div>
+    );
 }
 
 export default Experience;
