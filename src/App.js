@@ -8,12 +8,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import ProjectsPreview from "./pages/ProjectsPreview";
+import NavBar from "./components/NavBar";
 
 library.add(faChevronDown, faExternalLinkAlt);
 
 function App() {
     return (
         <div className="App">
+            <NavBar></NavBar>
             <Home></Home>
             <Experience></Experience>
             <ProjectsPreview></ProjectsPreview>
