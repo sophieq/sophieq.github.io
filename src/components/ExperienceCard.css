@@ -76,3 +76,7 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+
+.footer {
+    align-items: center;
+}

@@ -5,17 +5,20 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink
+    NavItem
 } from "reactstrap";
 import "./NavBar.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "../pages/Home";
+import Experience from "../pages/Experience";
+import ProjectsPreview from "../pages/ProjectsPreview";
 
-function NavBar() {
+function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="NavBar">
+        <Router>
             <Navbar light expand="md">
                 <NavbarBrand className="nav-brand" href="/">
                     sophie
@@ -24,30 +27,45 @@ function NavBar() {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink href="/">
+                            <Link to="/">
                                 <div className="underline pink">work</div>
-                            </NavLink>
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">
+                            <Link to="/projects">
                                 <div className="underline blue">projects</div>
-                            </NavLink>
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">
+                            <Link to="/about">
                                 <div className="underline green">about</div>
-                            </NavLink>
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">
+                            <a href="/">
                                 <div className="underline yellow">resume</div>
-                            </NavLink>
+                            </a>
                         </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
+            <Switch>
+                <Route path="/">
+                    <HomeSplash />
+                </Route>
+            </Switch>
+        </Router>
     );
 }
 
 export default NavBar;
+
+function HomeSplash() {
+    return (
+        <div>
+            <Home></Home>
+            <Experience></Experience>
+            <ProjectsPreview></ProjectsPreview>
+        </div>
+    );
+}
