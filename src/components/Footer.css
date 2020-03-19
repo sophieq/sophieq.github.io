@@ -1,0 +1,17 @@
+.Footer {
+    font-size: 24px;
+    margin: 100px 0;
+}
+
+.Footer h2 {
+    margin-bottom: 5px;
+}
+
+.Footer a {
+    color: black;
+}
+
+.end-tag {
+    margin-top: 20px;
+    text-align: center;
+}

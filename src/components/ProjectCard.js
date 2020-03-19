@@ -13,7 +13,7 @@ function ProjectCard(props) {
     return (
         <div className="ProjectCard">
             <div className="image-background-color">
-                <img className="image" src={logo} alt="Product"></img>
+                <img className="proj-image" src={logo} alt="Product"></img>
             </div>
             <div className="card-body">
                 <h2>{props.title}</h2>

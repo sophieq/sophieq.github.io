@@ -19,7 +19,7 @@ function ExperienceCard(props) {
                 className="image-background-color"
                 style={{ backgroundColor: props.color }}
             >
-                <img className="image" src={logo} alt="Company Logo"></img>
+                <img className="ex-image" src={logo} alt="Company Logo"></img>
             </div>
             <div className="card-body">
                 <h2>{props.company}</h2>
@@ -52,7 +52,7 @@ function ExperienceCard(props) {
                     <div>
                         <FontAwesomeIcon
                             icon="chevron-down"
-                            className="arrow"
+                            className="ex-arrow"
                             style={{ color: props.color }}
                         />
                     </div>
