@@ -1,0 +1,47 @@
+.About {
+    margin-top: 30px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.display-image {
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.greenAccent {
+    color: #b8dda4;
+}
+
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row-reverse;
+    }
+    .about-text {
+        margin-top: 0;
+        margin-right: 50px;
+        text-align: left;
+        min-width: 200px;
+    }
+
+    .display-image {
+        min-width: 250px;
+        max-width: 600px;
+    }
+}

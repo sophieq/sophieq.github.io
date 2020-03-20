@@ -12,10 +12,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
 import Experience from "../pages/Experience";
 import ProjectsPreview from "../pages/ProjectsPreview";
+import About from "../pages/About";
 
 function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
+    const [isActive, setIsActive] = useState(false);
 
     return (
         <Router>
@@ -50,6 +52,9 @@ function NavBar(props) {
                 </Collapse>
             </Navbar>
             <Switch>
+                <Route path="/about">
+                    <About></About>
+                </Route>
                 <Route path="/">
                     <HomeSplash />
                 </Route>

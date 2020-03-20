@@ -1,6 +1,6 @@
 .Footer {
     font-size: 24px;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .Footer h2 {
@@ -12,6 +12,7 @@
 }
 
 .end-tag {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
+    font-size: 18px;
 }
