@@ -1,5 +1,7 @@
 .ProjectCard {
     width: 100%;
+    min-width: 220px;
+    max-width: 400px;
     border-color: #f7b2ad;
     border-style: solid;
     border-radius: 10px;
