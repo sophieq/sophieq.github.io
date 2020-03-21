@@ -1,15 +1,10 @@
 .App {
-    margin: 30px 10%;
+    margin: 150px 10%;
     width: 80%;
     max-width: 900px;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (min-width: 425px) {
+@media (min-width: 768px) {
     .App {
         margin-left: auto;
         margin-right: auto;

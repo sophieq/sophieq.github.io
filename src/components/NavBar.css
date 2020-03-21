@@ -1,5 +1,9 @@
 .navbar {
-    padding: 0;
+    padding: 25px 10%;
+    margin: 0;
+    width: 100%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -52,12 +56,18 @@
 }
 
 @media (min-width: 768px) {
+    .navbar {
+        padding: 40px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .navbar-expand-md .navbar-collapse {
         justify-content: flex-end;
     }
 
     .nav-item {
-        margin: 0 0.75rem;
+        margin: 0 0 0 1.5rem;
         padding: 0;
     }
 }

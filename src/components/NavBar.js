@@ -21,7 +21,7 @@ function NavBar(props) {
 
     return (
         <Router>
-            <Navbar light expand="md">
+            <Navbar light expand="md" fixed="top">
                 <NavbarBrand className="nav-brand" href="/">
                     <img src={home_icon} className="logo" alt="logo"></img>
                 </NavbarBrand>
