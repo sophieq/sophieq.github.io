@@ -1,10 +1,11 @@
 .Footer {
-    font-size: 24px;
+    font-size: 18px;
     margin: 50px 0;
 }
 
 .Footer h2 {
     margin-bottom: 5px;
+    text-transform: lowercase;
 }
 
 .Footer a {
@@ -12,7 +13,7 @@
 }
 
 .end-tag {
-    margin-top: 50px;
+    margin-top: 2vh;
     text-align: center;
     font-size: 18px;
 }

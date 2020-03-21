@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="Footer">
             <div className="socials">
-                <h2>Get in Touch</h2>
+                <h2>get in touch.</h2>
                 <a
                     href="https://www.linkedin.com/in/sophie-q/"
                     target="_blank"

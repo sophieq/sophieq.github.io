@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="About">
             <div className="about-title">
-                <span className="greenAccent">[</span>About Me
+                <span className="greenAccent">[</span>about
                 <span className="greenAccent">]</span>
             </div>
             <div className="about-content">
@@ -18,6 +18,7 @@ function About() {
                     ></img>
                 </div>
                 <div className="about-text">
+                    <div class="about-subtitle">hello! it's me.</div>
                     <p>
                         I’m a 3rd year Computer Science student at the
                         University of Waterloo with a passion for women

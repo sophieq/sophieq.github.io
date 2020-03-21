@@ -66,7 +66,6 @@ h2 {
     opacity: 100%;
 }
 
-
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +91,7 @@ h2 {
         display: none;
     }
 
-    .collapse:not(.show) {
+    .ExperienceCard .collapse:not(.show) {
         display: block;
     }
 

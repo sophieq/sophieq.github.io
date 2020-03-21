@@ -9,7 +9,7 @@ function Home() {
                 <div className="header">
                     <h1>
                         <span className="pinkAccent">[</span>
-                        Hi! I'm Sophie Qin
+                        sophie qin
                         <span className="pinkAccent">]</span>
                     </h1>
                     <div>
@@ -23,9 +23,9 @@ function Home() {
                         <br></br>
                         Check out some of my work.
                     </div>
-                    <div id="arrow-down">
-                        <FontAwesomeIcon icon="chevron-down" />
-                    </div>
+                </div>
+                <div id="arrow-down">
+                    <FontAwesomeIcon icon="chevron-down" />
                 </div>
             </div>
         </div>
