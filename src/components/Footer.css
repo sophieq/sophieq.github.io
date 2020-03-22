@@ -13,7 +13,13 @@
 }
 
 .end-tag {
-    margin-top: 2vh;
     text-align: center;
     font-size: 18px;
+    margin-top: 30px;
+}
+
+@media (min-width: 375px) {
+    .end-tag {
+        margin-top: 5vw;
+    }
 }

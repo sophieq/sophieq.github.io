@@ -1,9 +1,11 @@
 .skill-tag {
     background-color: #e5e5e5;
-    color: #6a6a6a;
+    color: #ffffff;
+    font-weight: 600;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 27px;
     text-align: center;
     padding: 1px 8px;
     margin: 2px 2px;
+    text-transform: lowercase;
 }

@@ -39,7 +39,7 @@ function Footer() {
                 >
                     developed
                 </a>{" "}
-                by Sophie Qin
+                by Sophie Qin.
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 .navbar {
-    padding: 25px 10%;
+    padding: 20px 10%;
     margin: 0;
     width: 100%;
     max-width: 900px;
@@ -7,7 +7,7 @@
 }
 
 .logo {
-    width: 30px;
+    width: 40px;
     height: auto;
 }
 
@@ -57,7 +57,7 @@
 
 @media (min-width: 768px) {
     .navbar {
-        padding: 40px 0;
+        padding: 20px 0;
         margin-left: auto;
         margin-right: auto;
     }

@@ -1,52 +1,71 @@
 .ExperienceCard {
     width: 100%;
-    border-style: solid;
     border-radius: 10px;
-    border-width: 5px;
-    box-sizing: border-box;
-    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     margin: 35px 0;
     display: flex;
     flex-direction: column;
+    color: #4f4f4f;
+    transition: all 0.5s ease; /* back to normal */
+}
+
+.ExperienceCard:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+    transition: all 0.4s ease; /* zoom in */
+}
+
+.image-background-color {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
 }
 
 .ex-image {
-    width: 100%;
+    object-fit: contain;
+    width: 150px;
     height: auto;
 }
 
 .card-body {
-    margin: 0;
-    padding-bottom: 10px !important;
+    padding: 10px 20px !important;
+    background-color: #ffffff;
 }
 
-h2 {
-    font-size: 32px;
-    font-weight: 500;
+.ex-title {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
     text-transform: capitalize;
-    margin: 10px 0 0 0;
+    margin: 0;
+    line-height: 1;
 }
 
 .subtitle {
     font-size: 24px;
+    font-weight: 600;
     margin: 0;
+}
+
+.tags-desc-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .description {
     font-size: 18px;
-    margin: 5px 0;
+    font-weight: 300;
 }
 
 .card-body-style {
     border-width: 0;
 }
 
-.footer {
+.tags {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 5px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .arrow {
@@ -82,25 +101,55 @@ h2 {
     align-items: center;
 }
 
+@media (min-width: 375px) {
+    .ex-title {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 435px) {
+    .image-background-color {
+        min-height: 350px;
+    }
+
+    .ex-image {
+        width: 200px;
+    }
+}
+
 @media (min-width: 768px) {
     .ExperienceCard {
-        flex-direction: row-reverse;
+        flex-direction: row;
+    }
+
+    .card-body {
+        margin: 0;
+        padding: 40px 40px !important;
     }
 
     .see-more-container {
         display: none;
     }
 
+    .tags-desc-container {
+        flex-direction: column-reverse;
+    }
+
+    .tags {
+        margin-bottom: 0;
+    }
+
+    .description {
+        margin-top: 10px;
+    }
+
     .ExperienceCard .collapse:not(.show) {
         display: block;
     }
 
-    .ex-image {
-        width: auto;
-    }
-
     .image-background-color {
-        display: flex;
+        min-height: 100px;
         align-items: center;
+        width: 1000px;
     }
 }

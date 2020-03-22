@@ -7,11 +7,7 @@ function Home() {
         <div className="Home">
             <div className="headerContainer">
                 <div className="header">
-                    <h1>
-                        <span className="pinkAccent">[</span>
-                        sophie qin
-                        <span className="pinkAccent">]</span>
-                    </h1>
+                    <h1>Sophie Qin</h1>
                     <div>
                         Past SWE intern at Wish, Wattpad and TD.
                         <br></br>

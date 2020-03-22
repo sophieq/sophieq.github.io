@@ -33,7 +33,10 @@ function Projects() {
     ));
     return (
         <div>
-            <div className="title">projects.</div>
+            <div className="title">
+                <span className="blueAccent">[</span>projects
+                <span className="blueAccent">]</span>
+            </div>
             <Row>{projectPreviewCards}</Row>
             <Collapse isOpen={isOpen}>
                 <div>{projectCards}</div>

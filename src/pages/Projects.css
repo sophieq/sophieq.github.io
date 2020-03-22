@@ -18,3 +18,7 @@ a:hover {
 .row {
     align-items: flex-start;
 }
+
+.blueAccent {
+    color: #a6d2d2;
+}

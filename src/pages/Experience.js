@@ -7,6 +7,7 @@ function Experience() {
     const experienceCards = ExperienceData.map(data => (
         <ExperienceCard
             key={data.company}
+            img={data.img}
             company={data.company}
             title={data.title}
             description={data.description}
@@ -17,7 +18,10 @@ function Experience() {
     ));
     return (
         <div>
-            <div className="title">experience.</div>
+            <div className="title">
+                <span className="pinkAccent">[</span>work
+                <span className="pinkAccent">]</span>
+            </div>
             {experienceCards}
         </div>
     );
