@@ -16,7 +16,7 @@ class ExperienceSpec {
     }
 }
 
-export const ExperienceData = [
+export const WorkData = [
     new ExperienceSpec(
         wish_logo,
         "Wish",
@@ -61,5 +61,62 @@ export const ExperienceData = [
         ["Internship", "iOS", "Python", "Swift", "YOLO"],
         "#35B234",
         "https://tdlab.io/"
+    )
+];
+
+export const ProjectData = [
+    new ExperienceSpec(
+        blueprint_logo,
+        "DanceFest",
+        "Android App",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["UW Blueprint", "Android", "Kotlin", "Firebase"],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Mi Melons",
+        "iOS App",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["Hack the North 2019", "iOS", "Swift", "Python", "React"],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Chamber Crawler",
+        "C++ Project",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["C++"],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Portfolio Website",
+        "This Website!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["React", "JavaScript", "HTML", "CSS"],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Mufasa",
+        "iOS App",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["TD Lab Hacks", "Swift", "Firestore"],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Choosey",
+        "Coming Soon",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        [],
+        "#a6d2d2",
+        "https://uwblueprint.org/"
     )
 ];

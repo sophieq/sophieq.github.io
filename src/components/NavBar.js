@@ -7,13 +7,13 @@ import {
     Nav,
     NavItem
 } from "reactstrap";
-import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from "../pages/Home";
-import Experience from "../pages/Experience";
-import Projects from "../pages/Projects";
 import About from "../pages/About";
+import Experience from "../pages/Experience";
+import Home from "../pages/Home";
 import home_icon from "../assets/home_icon.png";
+import Projects from "../pages/Projects";
+import "./NavBar.css";
 
 function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
@@ -67,7 +67,7 @@ export default NavBar;
 
 function HomeSplash() {
     return (
-        <div>
+        <div className="content">
             <Home></Home>
             <Experience></Experience>
             <Projects></Projects>

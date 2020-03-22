@@ -1,9 +1,8 @@
 .navbar {
-    padding: 20px 10%;
+    padding: 15px 7%;
     margin: 0;
     width: 100%;
-    max-width: 900px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
 }
 
 .logo {
@@ -55,11 +54,15 @@
     box-shadow: none;
 }
 
+.content {
+    margin: 150px 10% 0 10%;
+    width: 80%;
+    max-width: 900px;
+}
+
 @media (min-width: 768px) {
     .navbar {
-        padding: 20px 0;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 20px 7% 15px 7%;
     }
 
     .navbar-expand-md .navbar-collapse {
@@ -69,5 +72,15 @@
     .nav-item {
         margin: 0 0 0 1.5rem;
         padding: 0;
+    }
+
+    .fixed-top {
+        right: auto;
+        left: auto;
+    }
+
+    .content {
+        margin-left: auto;
+        margin-right: auto;
     }
 }

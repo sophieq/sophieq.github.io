@@ -1,22 +1,10 @@
-.view-all-container {
-    display: flex;
-    justify-content: flex-end;
+.Projects {
+    margin-top: 100px;
 }
-.view-all {
-    font-size: 32px;
+
+.project-section-title {
     font-weight: 500;
-    text-align: end;
-    color: black;
-    border-bottom: 3px solid #f7b2ad;
-}
-
-a:hover {
-    color: inherit;
-    text-decoration: none;
-}
-
-.row {
-    align-items: flex-start;
+    font-size: 48px;
 }
 
 .blueAccent {

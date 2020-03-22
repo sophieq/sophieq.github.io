@@ -1,10 +1,10 @@
 import React from "react";
 import ExperienceCard from "../components/ExperienceCard";
-import { ExperienceData } from "../specs/ExperienceSpec.js";
+import { WorkData } from "../specs/ExperienceSpec.js";
 import "./Experience.css";
 
 function Experience() {
-    const experienceCards = ExperienceData.map(data => (
+    const experienceCards = WorkData.map(data => (
         <ExperienceCard
             key={data.company}
             img={data.img}
@@ -18,7 +18,7 @@ function Experience() {
     ));
     return (
         <div>
-            <div className="title">
+            <div className="ex-section-title">
                 <span className="pinkAccent">[</span>work
                 <span className="pinkAccent">]</span>
             </div>
