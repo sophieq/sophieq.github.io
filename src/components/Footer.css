@@ -1,23 +1,30 @@
 .Footer {
-    font-size: 18px;
-    margin: 50px 10%;
-    width: 80%;
-    max-width: 900px;
-}
-
-.Footer h2 {
-    margin-bottom: 5px;
-    text-transform: lowercase;
+    font-size: 24px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    font-weight: 300;
 }
 
 .Footer a {
-    color: black;
+    line-height: 2;
+    color: #4f4f4f;
+    border-bottom: 4px solid transparent;
+}
+
+.Footer a:hover {
+    border-bottom: 4px solid #ffd874;
 }
 
 .end-tag {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 30px;
+    font-weight: 400;
+}
+
+.highlight-yellow {
+    background-color: rgba(255, 216, 116, 0.5);
+    padding: 0 7px;
 }
 
 @media (min-width: 375px) {
@@ -27,6 +34,6 @@
     }
 
     .end-tag {
-        margin-top: 5vw;
+        margin-top: 3vw;
     }
 }

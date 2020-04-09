@@ -3,15 +3,17 @@ import "./Footer.css";
 
 function Footer() {
     return (
-        <div className="Footer">
+        <div className="Footer content">
             <div className="socials">
-                <h2>get in touch.</h2>
+                <div className="header-title">
+                    <span className="highlight-yellow">get in touch.</span>
+                </div>
                 <a
                     href="https://www.linkedin.com/in/sophie-q/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    linkedin
+                    linkedin.
                 </a>
                 <br></br>
                 <a
@@ -19,7 +21,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    email
+                    email.
                 </a>
                 <br></br>
                 <a
@@ -27,7 +29,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    github
+                    github.
                 </a>
             </div>
             <div className="end-tag">
