@@ -1,89 +1,60 @@
 .ExperienceCard {
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 40px 0;
+    border-radius: 5px;
+    min-height: 250px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    color: #4f4f4f;
-    transition: all 0.5s ease; /* back to normal */
+    position: relative;
+    margin: 25px 0;
+    cursor: pointer;
 }
 
-.ExperienceCard:hover {
-    transform: translate3D(0, -1px, 0) scale(1.05);
-    transition: all 0.4s ease; /* zoom in */
-}
-
-.image-background-color {
-    display: flex;
-    justify-content: center;
-    min-height: 200px;
-}
-
-.ex-image {
+.work-image {
+    position: absolute;
     object-fit: contain;
     width: 150px;
     height: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
 }
 
-.card-body {
-    padding: 10px 20px !important;
-    background-color: #ffffff;
+.ExperienceCard .collapse {
+    z-index: 3;
+}
+
+.overlay {
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.ex-content {
+    width: 100%;
+    padding: 40px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .ex-title {
-    display: inline-block;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin: 0;
-    line-height: 1;
-}
-
-.subtitle {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 600;
-    margin: 0;
+    text-transform: capitalize;
     line-height: 1;
 }
 
-.tags-desc-container {
-    display: flex;
-    flex-direction: column;
+.ex-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 8px 0;
+    line-height: 1;
 }
 
-.description {
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.card-body-style {
-    border-width: 0;
-}
-
-.tags {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.arrow {
+.ex-description {
     font-size: 20px;
-}
-
-.link-div {
-    align-self: flex-end;
-}
-
-.link {
-    font-size: 25px;
-    opacity: 50%;
-}
-
-.link:hover {
-    opacity: 100%;
+    font-weight: 300;
 }
 
 .skills-container {
@@ -92,70 +63,8 @@
     margin-right: 10px;
 }
 
-.see-more-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 16px;
-}
-
-.footer {
-    align-items: center;
-}
-
-@media (min-width: 375px) {
-    .ex-title {
-        font-size: 36px;
-    }
-}
-
-@media (min-width: 435px) {
-    .image-background-color {
-        min-height: 350px;
-    }
-
-    .ex-image {
-        width: 200px;
-    }
-}
-
 @media (min-width: 768px) {
-    .ExperienceCard {
-        flex-direction: row;
-    }
-
-    .card-body {
-        margin: 0;
-        padding: 40px 40px !important;
-    }
-
-    .see-more-container {
-        display: none;
-    }
-
-    .tags-desc-container {
-        flex-direction: column-reverse;
-    }
-
-    .tags {
-        margin-bottom: 0;
-    }
-
-    .description {
-        margin-top: 10px;
-    }
-
-    .ExperienceCard .collapse:not(.show) {
-        display: block;
-    }
-
-    .image-background-color {
-        min-height: 100px;
-        align-items: center;
-        width: 1000px;
-    }
-
-    .ex-image {
-        padding: 0 3%;
+    .ExperienceCard:hover .overlay {
+        opacity: 1;
     }
 }

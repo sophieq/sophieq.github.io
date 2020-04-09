@@ -1,8 +1,23 @@
-.ex-section-title {
+.work-title {
+    padding-top: 100px;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 36px;
 }
 
-.pinkAccent {
-    color: #f7b2ad;
+.work-subtitle {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 2.2;
+}
+
+.highlight-blue {
+    background-color: rgba(166, 210, 210, 0.5);
+    padding: 0 7px;
+    line-height: 1.6;
+}
+
+.blue {
+    cursor: pointer;
 }
