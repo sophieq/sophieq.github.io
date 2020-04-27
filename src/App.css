@@ -1,0 +1,48 @@
+.App {
+    color: #3d3d3d;
+}
+
+.header-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.pinkAccent {
+    color: #f7b2ad;
+}
+
+.blueAccent {
+    color: #a6d2d2;
+}
+
+.greenAccent {
+    color: #b8dda4;
+}
+
+.content {
+    margin: 0 10% 0 10%;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.expandOnHover:hover {
+    transform: translate3D(0, -1px, 0) scale(1.05);
+    transition: all 0.4s ease; /* zoom in */
+}
+
+.pink:hover {
+    border-bottom: 4px solid #f7b2ad;
+}
+
+.blue:hover {
+    border-bottom: 4px solid #a6d2d2;
+}
+
+.green:hover {
+    border-bottom: 4px solid #b8dda4;
+}
+
+.yellow:hover {
+    border-bottom: 4px solid #ffd874;
+}

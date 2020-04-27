@@ -5,7 +5,8 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem
+    NavItem,
+    Row,
 } from "reactstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../pages/About";
@@ -19,16 +20,20 @@ import PreviewCard from "./PreviewCard";
 function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
+    const [homeTab, setHomeTab] = useState("active");
     const [workTab, setWorkTab] = useState("");
     const [aboutTab, setAboutTab] = useState("");
 
-    const setActiveTab = id => {
+    const setActiveTab = (id) => {
+        setHomeTab("");
         setWorkTab("");
         setAboutTab("");
         if (id === "work-tab") {
             setWorkTab("active");
-        } else {
+        } else if (id === "about-tab") {
             setAboutTab("active");
+        } else if (id === "home-tab") {
+            setHomeTab("active");
         }
     };
 
@@ -38,7 +43,8 @@ function NavBar(props) {
                 <NavbarBrand className="nav-brand" href="/">
                     <img
                         src={home_icon}
-                        className="logo expandOnHover"
+                        className={homeTab + " logo"}
+                        onClick={() => setActiveTab("home-tab")}
                         alt="logo"
                     ></img>
                 </NavbarBrand>
@@ -95,7 +101,7 @@ function NavBar(props) {
 export default NavBar;
 
 function HomePage() {
-    const previewCards = PreviewData.map(data => (
+    const previewCards = PreviewData.map((data) => (
         <PreviewCard
             key={data.company}
             img={data.img}
@@ -111,8 +117,10 @@ function HomePage() {
     return (
         <div className="content">
             <Home></Home>
-            <div className="header-title">in the past i've...</div>
-            {previewCards}
+            <div className="header-title">in the past I've...</div>
+            <Row xs="1" md="3">
+                {previewCards}
+            </Row>
         </div>
     );
 }

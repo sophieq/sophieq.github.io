@@ -3,9 +3,21 @@ import htn_logo from "../assets/work/htn_logo.png";
 import wattpad_logo from "../assets/work/wattpad_logo.png";
 import blueprint_logo from "../assets/work/blueprint_logo.png";
 import td_logo from "../assets/work/td_logo.png";
+import cc3k from "../assets/work/cc3k_product.png";
+import mimelons from "../assets/work/mimelons_product.png";
+import dancefest from "../assets/work/dancefest_product_transparent.png";
 
 class ExperienceSpec {
-    constructor(img, company, title, description, skills, color, link) {
+    constructor(
+        img,
+        company,
+        title,
+        description,
+        skills,
+        color,
+        link,
+        isShortCard
+    ) {
         this.img = img;
         this.company = company;
         this.title = title;
@@ -13,6 +25,7 @@ class ExperienceSpec {
         this.skills = skills;
         this.color = color;
         this.link = link;
+        this.isShortCard = isShortCard;
     }
 }
 
@@ -22,18 +35,10 @@ export const WorkData = [
         "Wish",
         "Software Engineering Intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Internship", "iOS", "Python", "Swift", "SQL", "MongoDB", "Backend"],
+        ["Internship", "iOS", "Python", "Swift", "MongoDB", "Backend"],
         "#2fb7ec",
-        "http://www.wish.com"
-    ),
-    new ExperienceSpec(
-        htn_logo,
-        "Hack the North",
-        "Backend Developer",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Student Org", "Python", "SQL"],
-        "#183249",
-        "https://hackthenorth.com/"
+        "http://www.wish.com",
+        false
     ),
     new ExperienceSpec(
         wattpad_logo,
@@ -42,16 +47,8 @@ export const WorkData = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Internship", "iOS", "Python", "Swift", "Objective C"],
         "#EC6333",
-        "http://www.wattpad.com"
-    ),
-    new ExperienceSpec(
-        blueprint_logo,
-        "Blueprint",
-        "Project Developer",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Student Org", "Android", "Kotlin", "Python", "React"],
-        "#1078E9",
-        "https://uwblueprint.org/"
+        "http://www.wattpad.com",
+        false
     ),
     new ExperienceSpec(
         td_logo,
@@ -60,63 +57,110 @@ export const WorkData = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Internship", "iOS", "Python", "Swift", "YOLO"],
         "#35B234",
-        "https://tdlab.io/"
+        "https://tdlab.io/",
+        false
+    )
+];
+
+export const ExtracurricularData = [
+    new ExperienceSpec(
+        htn_logo,
+        "Hack the North",
+        "Backend Developer",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["Student Org", "Python", "SQL"],
+        "#183249",
+        "https://hackthenorth.com/",
+        false
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "Blueprint",
+        "Project Developer",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+        ["Student Org", "Android", "Kotlin", "Python", "React"],
+        "#1078E9",
+        "https://uwblueprint.org/",
+        false
     )
 ];
 
 export const ProjectData = [
+    [
+        new ExperienceSpec(
+            dancefest,
+            "DanceFest",
+            "Android App",
+            "An adjudication app that automated the judging process the annual OSS Dance Festival; increased scalability of event to 500+ participants.",
+            ["UW Blueprint", "Android", "Kotlin", "Firebase"],
+            "#292929",
+            "https://uwblueprint.org/",
+            true
+        ),
+        new ExperienceSpec(
+            mimelons,
+            "Mi Melons",
+            "iOS App",
+            "An app that guides women through their monthly breast exam to check for lumps and irregularities. Users are able to track their past exams and symptoms.",
+            ["Hack the North 2019", "iOS", "Swift", "Python", "React"],
+            "#BECE8E",
+            "https://uwblueprint.org/",
+            true
+        )
+    ],
+    [
+        new ExperienceSpec(
+            cc3k,
+            "Chamber Crawler",
+            "C++ Project",
+            "A RPB game created in C++. to be played in the command line. Utilized MVC framework",
+            ["C++", "mvc"],
+            "#a6d2d2",
+            "https://uwblueprint.org/",
+            true
+        ),
+        new ExperienceSpec(
+            blueprint_logo,
+            "Personal Website",
+            "This Website!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
+            ["React", "JavaScript", "HTML", "CSS"],
+            "#a6d2d2",
+            "https://uwblueprint.org/",
+            true
+        )
+    ]
+];
+
+export const PreviewData = [
     new ExperienceSpec(
-        blueprint_logo,
-        "DanceFest",
-        "Android App",
+        wish_logo,
+        "Wish",
+        "Software Engineering Intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["UW Blueprint", "Android", "Kotlin", "Firebase"],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
+        ["Internship", "iOS", "Python", "Swift", "SQL", "MongoDB", "Backend"],
+        "#2fb7ec",
+        "http://www.wish.com",
+        false
     ),
     new ExperienceSpec(
         blueprint_logo,
-        "Mi Melons",
-        "iOS App",
+        "Blueprint",
+        "Project Developer",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Hack the North 2019", "iOS", "Swift", "Python", "React"],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
+        ["Student Org", "Android", "Kotlin", "Python", "React"],
+        "#1078E9",
+        "https://uwblueprint.org/",
+        false
     ),
     new ExperienceSpec(
-        blueprint_logo,
-        "Chamber Crawler",
-        "C++ Project",
+        wattpad_logo,
+        "Wattpad",
+        "Software Engineering Intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["C++"],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
-    ),
-    new ExperienceSpec(
-        blueprint_logo,
-        "Portfolio Website",
-        "This Website!",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["React", "JavaScript", "HTML", "CSS"],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
-    ),
-    new ExperienceSpec(
-        blueprint_logo,
-        "Mufasa",
-        "iOS App",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["TD Lab Hacks", "Swift", "Firestore"],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
-    ),
-    new ExperienceSpec(
-        blueprint_logo,
-        "Choosey",
-        "Coming Soon",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        [],
-        "#a6d2d2",
-        "https://uwblueprint.org/"
+        ["Internship", "iOS", "Python", "Swift", "Objective C"],
+        "#EC6333",
+        "http://www.wattpad.com",
+        false
     )
 ];

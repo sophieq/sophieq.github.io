@@ -1,34 +1,25 @@
-.About {
-    margin-top: 30px;
-}
-
-.about-title {
-    font-weight: 500;
-    font-size: 48px;
-    text-transform: lowercase;
-}
-
 .about-content {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    align-items: center;
 }
 
-.about-subtitle {
-    font-weight: 500;
-    font-size: 32px;
-    margin-bottom: 10px;
+.highlight-green {
+    background-color: rgba(184, 221, 164, 0.5);
+    padding: 0 7px;
 }
 
 .display-image {
     width: 100%;
     height: auto;
+    max-width: 320px;
 }
 
 .about-text {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin-top: 30px;
+    font-weight: 300;
 }
 
 .greenAccent {
@@ -47,8 +38,12 @@
         min-width: 200px;
     }
 
+    .about-subtitle {
+        margin-bottom: 40px;
+    }
+
     .display-image {
-        min-width: 250px;
+        min-width: 300px;
         max-width: 600px;
     }
 }
