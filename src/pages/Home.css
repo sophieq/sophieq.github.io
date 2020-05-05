@@ -83,7 +83,7 @@
 
 @media (min-width: 768px) {
     .Home {
-        height: 90vh;
+        padding-top: 100px;
     }
 
     .header-container {

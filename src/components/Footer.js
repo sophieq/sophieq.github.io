@@ -4,14 +4,20 @@ import "./Footer.css";
 function Footer() {
     return (
         <div className="Footer content">
+            <div className="header-title">
+                <span className="highlight-yellow">get connected.</span>
+            </div>
+            <div className="footer-description">
+                Think we could make something <span role="img">✨</span>magical
+                <span role="img">✨</span> together? I'm looking for internship
+                opportunities for Fall 2020. Let's chat!
+            </div>
             <div className="socials">
-                <div className="header-title">
-                    <span className="highlight-yellow">get in touch.</span>
-                </div>
                 <a
                     href="https://www.linkedin.com/in/sophie-q/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="yellowAccent social-link"
                 >
                     linkedin.
                 </a>
@@ -20,6 +26,7 @@ function Footer() {
                     href="mailto:sophieeqin@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="yellowAccent social-link"
                 >
                     email.
                 </a>
@@ -28,20 +35,22 @@ function Footer() {
                     href="https://github.com/sophieq"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="yellowAccent social-link"
                 >
                     github.
                 </a>
             </div>
             <div className="end-tag">
-                designed and{" "}
+                Designed and{" "}
                 <a
                     href="https://github.com/sophieq/sophie-website-v2"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="yellowAccent"
                 >
-                    <strong>developed</strong>
+                    developed
                 </a>{" "}
-                by Sophie Qin.
+                with care by Sophie Qin © 2020.
             </div>
         </div>
     );

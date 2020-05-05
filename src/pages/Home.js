@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import "./Home.css";
-import { Row, Container } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { PreviewData } from "../specs/ExperienceSpec.js";
 import PreviewCard from "../components/PreviewCard";
@@ -78,16 +77,19 @@ function Home() {
                             .
                         </div>
                         <div className="home-description">
+                            I'm currently looking for{" "}
+                            <span className="pink-highlight">
+                                {" "}
+                                Fall 2020 Internship
+                            </span>{" "}
+                            opportunities.
+                        </div>
+                        <div className="home-description">
                             Can't stay long?{" "}
                             <a href="/" className="pinkAccent">
                                 Click here for a one-page summary.
                             </a>
                         </div>
-                        {/* <div className="home-description">
-                            <a href="/" className="social-icons pinkAccent">
-                                <FontAwesomeIcon icon={["fab", "github"]} />
-                            </a>
-                        </div> */}
                         <div
                             className="home-description pinkAccent hover-div"
                             onClick={executeScroll}
