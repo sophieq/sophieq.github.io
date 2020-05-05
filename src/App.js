@@ -2,13 +2,14 @@ import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
     faChevronDown,
-    faExternalLinkAlt
+    faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-library.add(faChevronDown, faExternalLinkAlt);
+library.add(faChevronDown, faExternalLinkAlt, faGithub);
 
 function App() {
     return (

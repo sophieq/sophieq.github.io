@@ -1,18 +1,29 @@
-.headerContainer {
-    margin-top: 30px;
-    font-weight: normal;
-    font-size: 24px;
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    font-weight: 400;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
     text-align: center;
 }
 
-.headerContainer .header h1 {
+.homepage-image {
+    width: 175px;
+    height: auto;
+}
+
+.home-title {
     font-weight: 500;
-    font-size: 48px;
-    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 1.15;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -20,37 +31,81 @@
     flex-direction: column;
 }
 
-@keyframes jump {
-    0% {
-        top: 0;
-    }
-    50% {
-        top: 50px;
-    }
-    100% {
-        top: 0;
-    }
+.home-description {
+    margin-top: 15px;
 }
 
 #arrow-down {
     position: relative;
-    margin: 0 auto;
     text-align: center;
-    animation: jump 5s infinite;
 }
-#arrow-down i {
-    content: "\f0a8";
-    font-family: "FontAwesome";
-    font-size: 80px;
-    transition: 0.3s ease-in-out;
+
+.hover-div {
+    cursor: pointer;
 }
-#arrow-down i:hover {
-    opacity: 0.7;
-    transition: 0.3s ease-out;
+
+.pink-highlight {
+    background-color: rgba(255, 220, 212, 1);
+    padding: 0 7px;
+}
+
+.social-icons {
+    font-size: 20px;
+}
+
+.preview-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.preview-title {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.view-more-tag {
+    margin-top: 20px;
+    text-align: end;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+@media (min-width: 630px) {
+    .home-title {
+        font-size: 48px;
+    }
 }
 
 @media (min-width: 768px) {
-    .headerContainer {
+    .Home {
+        height: 90vh;
+    }
+
+    .header-container {
         text-align: left;
+    }
+
+    .photo-position {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-end; */
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .homepage-image {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    #arrow-down {
+        text-align: left;
+        margin-left: 2px;
+        margin-top: 3px;
     }
 }

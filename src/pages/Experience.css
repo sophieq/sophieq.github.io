@@ -1,7 +1,7 @@
 .work-title {
     padding-top: 100px;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .work-subtitle {
@@ -20,4 +20,10 @@
 
 .blue {
     cursor: pointer;
+}
+
+@media (min-width: 380px) {
+    .work-title {
+        font-size: 36px;
+    }
 }

@@ -1,8 +1,8 @@
 .PreviewCard {
-    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 40px 0;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
     color: #3d3d3d;
@@ -17,7 +17,7 @@
 
 .preview-image {
     object-fit: contain;
-    width: 150px;
+    width: 125px;
     height: auto;
 }
 
@@ -26,8 +26,20 @@
     background-color: #ffffff;
 }
 
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 10px;
+.preview-text {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media (min-width: 350px) {
+    .PreviewCard {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .PreviewCard {
+        max-width: 290px;
+    }
 }

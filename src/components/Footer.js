@@ -39,7 +39,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    developed
+                    <strong>developed</strong>
                 </a>{" "}
                 by Sophie Qin.
             </div>

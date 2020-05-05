@@ -1,15 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./PreviewCard.css";
-import SkillTag from "./SkillTag.js";
 
 function PreviewCard(props) {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
-    const skills = props.skills;
-    const listSkills = skills.map((skill) => (
-        <SkillTag key={skill} name={skill} color={props.color}></SkillTag>
-    ));
-
     return (
         <div
             className="PreviewCard expandOnHover"
@@ -30,7 +22,7 @@ function PreviewCard(props) {
             </div>
             <div className="card-body">
                 <div className="preview-text" style={{ color: props.color }}>
-                    doing a lot of things
+                    {props.description}
                 </div>
             </div>
         </div>

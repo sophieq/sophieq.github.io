@@ -37,17 +37,17 @@
 
 .blue.active.nav-text {
     opacity: 1;
-    border-bottom: 4px solid #a6d2d2;
+    border-bottom: 3px solid #a6d2d2;
 }
 
 .green.active.nav-text {
     opacity: 1;
-    border-bottom: 4px solid #b8dda4;
+    border-bottom: 3px solid #b8dda4;
 }
 
 .nav-text {
     color: #3d3d3d;
-    border-bottom: 4px solid transparent;
+    border-bottom: 3px solid transparent;
     opacity: 0.7;
 }
 

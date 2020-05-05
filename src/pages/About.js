@@ -15,7 +15,7 @@ class About extends Component {
                         <img
                             className="display-image"
                             src={display_pic}
-                            alt="Protrait"
+                            alt="me"
                         ></img>
                     </div>
                     <div className="about-text">

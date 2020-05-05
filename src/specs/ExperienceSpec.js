@@ -59,7 +59,7 @@ export const WorkData = [
         "#35B234",
         "https://tdlab.io/",
         false
-    )
+    ),
 ];
 
 export const ExtracurricularData = [
@@ -82,7 +82,7 @@ export const ExtracurricularData = [
         "#1078E9",
         "https://uwblueprint.org/",
         false
-    )
+    ),
 ];
 
 export const ProjectData = [
@@ -106,7 +106,7 @@ export const ProjectData = [
             "#BECE8E",
             "https://uwblueprint.org/",
             true
-        )
+        ),
     ],
     [
         new ExperienceSpec(
@@ -128,39 +128,38 @@ export const ProjectData = [
             "#a6d2d2",
             "https://uwblueprint.org/",
             true
-        )
-    ]
+        ),
+    ],
 ];
 
 export const PreviewData = [
     new ExperienceSpec(
         wish_logo,
-        "Wish",
-        "Software Engineering Intern",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Internship", "iOS", "Python", "Swift", "SQL", "MongoDB", "Backend"],
+        "",
+        "",
+        "scaling e-commerce sales for thousands products,",
+        [],
         "#2fb7ec",
-        "http://www.wish.com",
         false
     ),
     new ExperienceSpec(
-        blueprint_logo,
-        "Blueprint",
-        "Project Developer",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Student Org", "Android", "Kotlin", "Python", "React"],
-        "#1078E9",
-        "https://uwblueprint.org/",
+        htn_logo,
+        "",
+        "",
+        "building Canada’s largest hackathon,",
+        [],
+        "#183249",
+        "",
         false
     ),
     new ExperienceSpec(
         wattpad_logo,
-        "Wattpad",
-        "Software Engineering Intern",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
-        ["Internship", "iOS", "Python", "Swift", "Objective C"],
+        "",
+        "",
+        "introducing new ways for digital readers to interact with Wattpad Coins,",
+        [],
         "#EC6333",
-        "http://www.wattpad.com",
+        "",
         false
-    )
+    ),
 ];
