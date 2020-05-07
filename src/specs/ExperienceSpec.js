@@ -32,8 +32,8 @@ class ExperienceSpec {
 export const WorkData = [
     new ExperienceSpec(
         wish_logo,
-        "Wish",
-        "Software Engineering Intern",
+        "wish",
+        "software engineering intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Internship", "iOS", "Python", "Swift", "MongoDB", "Backend"],
         "#2fb7ec",
@@ -42,8 +42,8 @@ export const WorkData = [
     ),
     new ExperienceSpec(
         wattpad_logo,
-        "Wattpad",
-        "Software Engineering Intern",
+        "wattpad",
+        "software engineering intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Internship", "iOS", "Python", "Swift", "Objective C"],
         "#EC6333",
@@ -52,8 +52,8 @@ export const WorkData = [
     ),
     new ExperienceSpec(
         td_logo,
-        "TD Lab",
-        "Software Developer Intern",
+        "TD lab",
+        "software developer intern",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Internship", "iOS", "Python", "Swift", "YOLO"],
         "#35B234",
@@ -65,8 +65,8 @@ export const WorkData = [
 export const ExtracurricularData = [
     new ExperienceSpec(
         htn_logo,
-        "Hack the North",
-        "Backend Developer",
+        "hack the north",
+        "backend developer",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Student Org", "Python", "SQL"],
         "#183249",
@@ -75,8 +75,8 @@ export const ExtracurricularData = [
     ),
     new ExperienceSpec(
         blueprint_logo,
-        "Blueprint",
-        "Project Developer",
+        "blueprint",
+        "project developer",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
         ["Student Org", "Android", "Kotlin", "Python", "React"],
         "#1078E9",
@@ -89,8 +89,8 @@ export const ProjectData = [
     [
         new ExperienceSpec(
             dancefest,
-            "DanceFest",
-            "Android App",
+            "dancefest",
+            "android app",
             "An adjudication app that automated the judging process the annual OSS Dance Festival; increased scalability of event to 500+ participants.",
             ["UW Blueprint", "Android", "Kotlin", "Firebase"],
             "#292929",
@@ -99,8 +99,8 @@ export const ProjectData = [
         ),
         new ExperienceSpec(
             mimelons,
-            "Mi Melons",
-            "iOS App",
+            "mi melons",
+            "iOS app",
             "An app that guides women through their monthly breast exam to check for lumps and irregularities. Users are able to track their past exams and symptoms.",
             ["Hack the North 2019", "iOS", "Swift", "Python", "React"],
             "#BECE8E",
@@ -111,9 +111,9 @@ export const ProjectData = [
     [
         new ExperienceSpec(
             cc3k,
-            "Chamber Crawler",
-            "C++ Project",
-            "A RPB game created in C++. to be played in the command line. Utilized MVC framework",
+            "chamber crawler",
+            "c++ project",
+            "A RPG created in C++. to be played in the command line. Utilized MVC framework",
             ["C++", "mvc"],
             "#a6d2d2",
             "https://uwblueprint.org/",
@@ -121,8 +121,8 @@ export const ProjectData = [
         ),
         new ExperienceSpec(
             blueprint_logo,
-            "Personal Website",
-            "This Website!",
+            "personal website",
+            "this website!",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
             ["React", "JavaScript", "HTML", "CSS"],
             "#a6d2d2",
@@ -159,6 +159,26 @@ export const PreviewData = [
         "introducing new ways for digital readers to interact with Wattpad Coins,",
         [],
         "#EC6333",
+        "",
+        false
+    ),
+    new ExperienceSpec(
+        blueprint_logo,
+        "",
+        "",
+        "introducing new ways for digital readers to interact with Wattpad Coins,",
+        [],
+        "#1078E9",
+        "",
+        false
+    ),
+    new ExperienceSpec(
+        td_logo,
+        "",
+        "",
+        "introducing new ways for digital readers to interact with Wattpad Coins,",
+        [],
+        "#35B234",
         "",
         false
     ),

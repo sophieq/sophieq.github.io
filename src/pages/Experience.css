@@ -1,13 +1,15 @@
 .work-title {
     padding-top: 100px;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .work-subtitle {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
     line-height: 2.2;
 }
@@ -18,12 +20,35 @@
     line-height: 1.6;
 }
 
-.blue {
-    cursor: pointer;
+.scroll-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 @media (min-width: 380px) {
     .work-title {
         font-size: 36px;
+    }
+}
+
+@media (min-width: 768px) {
+    .work-subtitle {
+        text-align: left;
+        flex-direction: row;
+    }
+
+    .footer-link {
+        margin-left: 20px;
+    }
+
+    .scroll-tag {
+        align-items: flex-end;
+    }
+
+    .arrow-up {
+        margin-right: 5px;
     }
 }

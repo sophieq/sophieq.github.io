@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import ExperienceCard from "../components/ExperienceCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProjectCard from "../components/ProjectCard";
 import {
     WorkData,
     ExtracurricularData,
-    ProjectData
+    ProjectData,
 } from "../specs/ExperienceSpec.js";
 import { Row } from "reactstrap";
 import "./Experience.css";
@@ -25,22 +26,28 @@ class Experience extends Component {
         const scrollToIndustryRef = () =>
             window.scrollTo({
                 behavior: "smooth",
-                top: this.industryRef.current.offsetTop
+                top: this.industryRef.current.offsetTop,
             });
 
         const scrollToExtracurricularRef = () =>
             window.scrollTo({
                 behavior: "smooth",
-                top: this.extracurricularRef.current.offsetTop
+                top: this.extracurricularRef.current.offsetTop,
             });
 
         const scrollToProjectRef = () =>
             window.scrollTo({
                 behavior: "smooth",
-                top: this.projectRef.current.offsetTop
+                top: this.projectRef.current.offsetTop,
             });
 
-        const workCards = WorkData.map(data => (
+        const scrollToTop = () =>
+            window.scrollTo({
+                behavior: "smooth",
+                top: 0,
+            });
+
+        const workCards = WorkData.map((data) => (
             <ExperienceCard
                 key={data.company}
                 img={data.img}
@@ -53,7 +60,7 @@ class Experience extends Component {
                 isShortCard={data.isShortCard}
             ></ExperienceCard>
         ));
-        const ExtracurricularCards = ExtracurricularData.map(data => (
+        const ExtracurricularCards = ExtracurricularData.map((data) => (
             <ExperienceCard
                 key={data.company}
                 img={data.img}
@@ -66,7 +73,7 @@ class Experience extends Component {
                 isShortCard={data.isShortCard}
             ></ExperienceCard>
         ));
-        const ProjectCards = ProjectData.map(project => (
+        const ProjectCards = ProjectData.map((project) => (
             <ProjectRow key={project[0].title} project={project} />
         ));
 
@@ -78,18 +85,31 @@ class Experience extends Component {
                     </span>
                 </div>
                 <div className="work-subtitle">
-                    checkout out my work in <br></br>
-                    <span className="blue" onClick={scrollToIndustryRef}>
-                        industry.
-                    </span>{" "}
-                    <br></br>
-                    <span className="blue" onClick={scrollToExtracurricularRef}>
-                        extracurriculars.
-                    </span>{" "}
-                    <br></br>
-                    <span className="blue" onClick={scrollToProjectRef}>
-                        projects.
-                    </span>
+                    <div> Checkout out my work in: </div>
+                    <div>
+                        <span
+                            className="blueAccent footer-link"
+                            onClick={scrollToIndustryRef}
+                        >
+                            industry.
+                        </span>
+                    </div>
+                    <div>
+                        <span
+                            className="blueAccent footer-link"
+                            onClick={scrollToExtracurricularRef}
+                        >
+                            extracurriculars.
+                        </span>
+                    </div>
+                    <div>
+                        <span
+                            className="blueAccent footer-link"
+                            onClick={scrollToProjectRef}
+                        >
+                            projects.
+                        </span>
+                    </div>
                 </div>
                 <div className="work-title" ref={this.industryRef}>
                     industry.
@@ -103,6 +123,12 @@ class Experience extends Component {
                     projects.
                 </div>
                 {ProjectCards}
+                <div className="scroll-tag blueAccent" onClick={scrollToTop}>
+                    <div className="arrow-up ">
+                        <FontAwesomeIcon icon="chevron-up" />
+                    </div>
+                    <span href="/work">Jump back to the top.</span>
+                </div>
             </div>
         );
     }
@@ -111,7 +137,7 @@ class Experience extends Component {
 export default Experience;
 
 function ProjectRow(props) {
-    const projectRow = props.project.map(data => (
+    const projectRow = props.project.map((data) => (
         <ProjectCard
             key={data.company}
             img={data.img}

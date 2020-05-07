@@ -6,7 +6,7 @@ import "./ProjectCard.css";
 function ProjectCard(props) {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
-    const listSkills = props.skills.map(skill => (
+    const listSkills = props.skills.map((skill) => (
         <SkillTag key={skill} name={skill} color={props.color}></SkillTag>
     ));
 
@@ -29,8 +29,7 @@ function ProjectCard(props) {
                                 <div className="ex-title">{props.company}</div>
                                 <div className="ex-subtitle">{props.title}</div>
                             </div>
-                            <div className="ex-description">
-                                {" "}
+                            <div className="proj-description">
                                 {props.description}
                             </div>
                             <div className="skills-container">{listSkills}</div>

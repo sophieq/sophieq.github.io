@@ -31,7 +31,7 @@
 
 .ex-content {
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     min-height: 250px;
     display: flex;
     flex-direction: column;
@@ -39,32 +39,47 @@
 }
 
 .ex-title {
-    font-size: 36px;
-    font-weight: 600;
-    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 500;
     line-height: 1;
 }
 
 .ex-subtitle {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    margin: 8px 0;
+    margin: 5px 0;
     line-height: 1;
 }
 
 .ex-description {
+    margin: 5px 0;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 10px;
+    margin: 5px 0;
+}
+
+@media (min-width: 380px) {
+    /* .ExperienceCard:hover .overlay {
+        opacity: 1;
+    } */
+
+    .ex-title {
+        font-size: 36px;
+    }
+
+    .ex-subtitle {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 768px) {
-    .ExperienceCard:hover .overlay {
-        opacity: 1;
+    .ex-content {
+        padding: 40px;
     }
 }
