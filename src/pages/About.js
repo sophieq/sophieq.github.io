@@ -25,20 +25,87 @@ class About extends Component {
                             </span>
                         </div>
                         <p>
-                            I’m a third year computer science student at the
-                            University of Waterloo with a passion for women
-                            empowerment and coding for social good.
+                            I’m a third year computer science student studying
+                            at the{" "}
+                            <a
+                                href="https://uwaterloo.ca"
+                                className="greenAccent"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                University of Waterloo
+                            </a>
+                            . I love to learn and I'd like to think I have a
+                            knack for picking up new skills.
                         </p>
                         <p>
-                            I love learning and I'd like to think I have a knack
-                            for picking up new skills. With experience as a
-                            mobile developer, I hope to grow my knowledge in
-                            human computer.
+                            In the future, I want to write code that will{" "}
+                            <span className="highlight-green">
+                                unlock answers to the biggest issues
+                            </span>{" "}
+                            the world is facing today. To help me in that
+                            journey, I'm sharpening my skills through
+                            internships at{" "}
+                            <a
+                                href="http://www.wish.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                Wish
+                            </a>
+                            ,{" "}
+                            <a
+                                href="http://www.wattpad.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                Wattpad
+                            </a>{" "}
+                            and{" "}
+                            <a
+                                href="http://www.tdlab.io"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                TD Lab
+                            </a>
+                            . Within the local tech community, I've been a
+                            project developer for{" "}
+                            <a
+                                href="https://uwblueprint.org/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                UW Blueprint
+                            </a>{" "}
+                            and currently, I'm an organizer for{" "}
+                            <a
+                                href="https://hackthenorth.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                Hack the North
+                            </a>
+                            .
                         </p>
                         <p>
-                            Outside of coding, I spend my days discovering new
-                            music, reading, in a Zumba class or getting scared
-                            by true crime podcasts.
+                            Outside of coding, I spend my days reading about
+                            greek mythology, watching Brooklyn 99, and chilling
+                            out to{" "}
+                            <a
+                                href="https://www.youtube.com/watch?v=5qap5aO4i9A"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                lofi hip hop music - beats to relax/study to
+                            </a>
+                            .
                         </p>
                     </div>
                 </div>
