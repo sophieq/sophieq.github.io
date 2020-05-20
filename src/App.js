@@ -5,12 +5,11 @@ import {
     faChevronUp,
     faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-library.add(faChevronDown, faExternalLinkAlt, faGithub, faChevronUp);
+library.add(faChevronDown, faExternalLinkAlt, faChevronUp);
 
 function App() {
     return (

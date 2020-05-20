@@ -4,7 +4,7 @@ import "./PreviewCard.css";
 function PreviewCard(props) {
     return (
         <div
-            className="PreviewCard expandOnHover"
+            className="PreviewCard"
             style={{
                 backgroundColor: props.color,
                 boxShadow: `1px 5px 8px ${props.color}`,

@@ -1,17 +1,11 @@
 import React, { useState } from "react";
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-} from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../pages/About";
 import Experience from "../pages/Experience";
 import Home from "../pages/Home";
 import home_icon from "../assets/home_icon.png";
+import resume from "../assets/Sophie_Qin_Resume.pdf";
 import "./NavBar.css";
 
 function NavBar(props) {
@@ -20,7 +14,6 @@ function NavBar(props) {
     const [homeTab, setHomeTab] = useState("active");
     const [workTab, setWorkTab] = useState("");
     const [aboutTab, setAboutTab] = useState("");
-
     const setActiveTab = (id) => {
         setHomeTab("");
         setWorkTab("");
@@ -37,14 +30,19 @@ function NavBar(props) {
     return (
         <Router>
             <Navbar light expand="md" fixed="top">
-                <NavbarBrand className="nav-brand" href="/">
+                <Link to="/">
                     <img
                         src={home_icon}
                         className={homeTab + " logo"}
-                        onClick={() => setActiveTab("home-tab")}
+                        onClick={() => {
+                            setActiveTab("home-tab");
+                            window.scrollTo({
+                                top: 0,
+                            });
+                        }}
                         alt="logo"
                     ></img>
-                </NavbarBrand>
+                </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
@@ -71,7 +69,11 @@ function NavBar(props) {
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <a href="/">
+                            <a
+                                href={resume}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <span className="nav-text yellow">resume.</span>
                             </a>
                         </NavItem>

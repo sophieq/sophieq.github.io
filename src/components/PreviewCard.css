@@ -29,6 +29,7 @@
 .preview-text {
     font-weight: 500;
     font-size: 24px;
+    text-align: center;
 }
 
 @media (min-width: 350px) {

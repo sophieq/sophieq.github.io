@@ -15,7 +15,7 @@ a:hover {
 .content {
     margin: 0 10% 0 10%;
     width: 80%;
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 /* Header title font style */
@@ -34,19 +34,19 @@ a:hover {
 }
 
 .pink:hover {
-    border-bottom: 3px solid #feaca6;
+    border-bottom: 4px solid #feaca6;
 }
 
 .blue:hover {
-    border-bottom: 3px solid #a6d2d2;
+    border-bottom: 4px solid #a6d2d2;
 }
 
 .green:hover {
-    border-bottom: 3px solid #b8dda4;
+    border-bottom: 4px solid #b8dda4;
 }
 
 .yellow:hover {
-    border-bottom: 3px solid #ffd874;
+    border-bottom: 4px solid #ffd874;
 }
 
 .pinkAccent {
@@ -81,108 +81,6 @@ a:hover {
     color: #ffd874;
 }
 
-/* Underline Colors */
-
-/* .pink-underline {
-    text-decoration: none;
-    position: relative;
-    color: #3d3d3d;
-    pointer-events: none;
-    cursor: default;
-}
-
-.pink-underline:hover {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-.pink-underline:after {
-    position: absolute;
-    background: #f7adae;
-    content: " ";
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    margin: 0 auto;
-    bottom: 10px;
-}
-
-.blue-underline {
-    text-decoration: none;
-    position: relative;
-    color: #3d3d3d;
-    pointer-events: none;
-    cursor: default;
-}
-
-.blue-underline:hover {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-.blue-underline:after {
-    position: absolute;
-    background: #a6d2d2;
-    content: " ";
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    margin: 0 auto;
-    bottom: 10px;
-}
-
-.green-underline {
-    text-decoration: none;
-    position: relative;
-    color: #3d3d3d;
-    pointer-events: none;
-    cursor: default;
-}
-
-.green-underline:hover {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-.green-underline:after {
-    position: absolute;
-    background: #b8dda4;
-    content: " ";
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    margin: 0 auto;
-    bottom: 10px;
-}
-
-.yellow-underline {
-    text-decoration: none;
-    position: relative;
-    color: #3d3d3d;
-    pointer-events: none;
-    cursor: default;
-}
-
-.yellow-underline:hover {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-.yellow-underline:after {
-    position: absolute;
-    background: #ffd874;
-    content: " ";
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    margin: 0 auto;
-    bottom: 10px;
-} */
-
 @media (min-width: 380px) {
     .header-title {
         font-size: 36px;
@@ -192,5 +90,132 @@ a:hover {
 @media (min-width: 768px) {
     .header-title {
         text-align: left;
+    }
+}
+
+/* Animations */
+.fade-in-up {
+    animation: fadeInUp ease-in 1s;
+    -webkit-animation: fadeInUp ease-in 1s;
+    -moz-animation: fadeInUp ease-in 1s;
+    -o-animation: fadeInUp ease-in 1s;
+    -ms-animation: fadeInUp ease-in 1s;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in-right {
+    animation: fadeInRight ease-in 1s;
+    -webkit-animation: fadeInRight ease-in 1s;
+    -moz-animation: fadeInRight ease-in 1s;
+    -o-animation: fadeInRight ease-in 1s;
+    -ms-animation: fadeInRight ease-in 1s;
+}
+
+@keyframes fadeInRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }

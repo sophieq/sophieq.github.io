@@ -13,7 +13,8 @@ class About extends Component {
                 <div className="about-content">
                     <div>
                         <img
-                            className="display-image"
+                            loading="lazy"
+                            className="display-image fade-in-right"
                             src={display_pic}
                             alt="me"
                         ></img>

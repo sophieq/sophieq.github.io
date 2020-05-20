@@ -50,7 +50,7 @@ function Footer() {
                 >
                     developed
                 </a>{" "}
-                with care by Sophie Qin © 2020.
+                with ☕️ by Sophie Qin © 2020.
             </div>
         </div>
     );

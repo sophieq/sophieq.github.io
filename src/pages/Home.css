@@ -26,11 +26,6 @@
     margin-bottom: 10px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-}
-
 .home-description {
     margin-top: 15px;
 }

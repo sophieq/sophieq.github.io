@@ -6,7 +6,7 @@ import {
     WorkData,
     ExtracurricularData,
     ProjectData,
-} from "../specs/ExperienceSpec.js";
+} from "../specs/ExperienceSpec.jsx";
 import { Row } from "reactstrap";
 import "./Experience.css";
 
@@ -127,7 +127,7 @@ class Experience extends Component {
                     <div className="arrow-up ">
                         <FontAwesomeIcon icon="chevron-up" />
                     </div>
-                    <span href="/work">Jump back to the top.</span>
+                    <span href="/work">jump back to the top.</span>
                 </div>
             </div>
         );
