@@ -39,25 +39,24 @@ export const WorkData = [
         (
             <ul>
                 <li>
-                    designed and built the backend architecture for Flash Sale,
-                    a feature where 100+ products are put on sale every X hours
-                    daily using Tornado and MongoDB.
+                    built the backend architecture, product selection/push
+                    notification infrastructure, and custom pricing logic for
+                    Flash Sale, a feature that showcases 100+ products on sale
+                    every 4 hours daily using Tornado, MongoDB, and SQL.
                 </li>
                 <li>
-                    blocked over 160k fraud accounts per month by integrating
-                    multi-factor authentication requests into the iOS platform.
+                    implemented redesigns of the current iOS UI, resulting in a
+                    $32M increase on gross merchandise value per year.
                 </li>
                 <li>
-                    increased user retention by 2.2% and GMV 1.5% through
-                    building new onboarding experiences for new users.
+                    blocked over 160k fraud accounts per month by modifying the
+                    iOS app’s core requests to integrate an internal
+                    multi-factor authentication framework.
                 </li>
                 <li>
-                    grew user traffic for the Wish Blue program by 20% by adding
-                    animated promotions with Lottie.
-                </li>
-                <li>
-                    improved user retention on the iOS platform by 5% through
-                    automatically refresh expiring account sessions.
+                    reduced day 0 drop-off for new users by 12% and increased a
+                    user's lifetime value by 5%, through building new onboarding
+                    experiences.
                 </li>
             </ul>
         ),
@@ -87,11 +86,11 @@ export const WorkData = [
                 </li>
                 <li>
                     piloted a coin gifting experiment to 50% of US iOS users,
-                    resulting in a projected $10k increase in monthly revenue.
+                    resulting in an estimated $10k increase in monthly revenue.
                 </li>
                 <li>
-                    facilitated a workshop for payment testing using XCUITest
-                    for 5+ developers.
+                    automated tests for purchasing coins using XCUITest to
+                    increase code coverage on the iOS app.
                 </li>
             </ul>
         ),
@@ -102,7 +101,7 @@ export const WorkData = [
     ),
     new ExperienceSpec(
         td_logo,
-        "TD lab",
+        "td lab",
         "software developer intern • sep - dec 2018",
         (
             <ul>
@@ -144,12 +143,13 @@ export const ExtracurricularData = [
         (
             <ul>
                 <li>
-                    decreasing the Postgres database server load by 100+
-                    database calls through validating authorization using JWTs.
+                    reducing the server load by hundreds of calls to the
+                    Postgres database through implementing JWT token issuing and
+                    validation.
                 </li>
                 <li>
-                    migrating the Hack the North server from SQLAlchemy and
-                    Python to GraphQL and Typescript.
+                    migrating the server code from SQLAlchemy and Python to
+                    GraphQL and Typescript to simplify data requests.
                 </li>
                 <li>
                     collaborating with a team of 5 to manage the workshops that
@@ -180,7 +180,7 @@ export const ExtracurricularData = [
                 </li>
             </ul>
         ),
-        [("Student Org", "Android", "Kotlin", "Python", "React")],
+        ["Student Org", "Android", "Kotlin", "Python", "React"],
         "#1078E9",
         "https://uwblueprint.org/",
         false

@@ -44,9 +44,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="home-description">
-                        I'm Sophie Qin, a computer science student passionate
-                        about creating tech solutions that will impact people in
-                        a meaningful way. Previously, I've interned at{" "}
+                        I'm Sophie, a computer science student passionate about
+                        creating tech solutions that will impact people in a
+                        meaningful way. Previously, I've interned at{" "}
                         <a
                             href="http://www.wish.com"
                             target="_blank"
@@ -112,7 +112,7 @@ function Home() {
                 <div className="preview-container">{previewCards}</div>
                 <div className="view-more-tag">
                     ...want to learn more?{" "}
-                    <a href="/work" className="pinkAccent">
+                    <a href="#/work" className="pinkAccent">
                         View all my work.
                     </a>
                 </div>

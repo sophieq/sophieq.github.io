@@ -58,7 +58,7 @@
 
 .preview-title {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     padding-top: 100px;
 }
@@ -67,7 +67,7 @@
     margin-top: 20px;
     text-align: end;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 @media (min-width: 630px) {

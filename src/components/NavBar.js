@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../pages/About";
 import Experience from "../pages/Experience";
 import Home from "../pages/Home";
@@ -30,7 +30,7 @@ function NavBar(props) {
     return (
         <Router>
             <Navbar light expand="md" fixed="top">
-                <Link to="/">
+                <Link to={"/"}>
                     <img
                         src={home_icon}
                         className={homeTab + " logo"}
@@ -47,7 +47,7 @@ function NavBar(props) {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <Link to="/work">
+                            <Link to={"/work"}>
                                 <span
                                     className={"blue " + workTab + " nav-text"}
                                     onClick={() => setActiveTab("work-tab")}
@@ -57,7 +57,7 @@ function NavBar(props) {
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <Link to="/about">
+                            <Link to={"/about"}>
                                 <span
                                     className={
                                         "green " + aboutTab + " nav-text"

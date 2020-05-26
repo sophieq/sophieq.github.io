@@ -15,7 +15,7 @@ a:hover {
 .content {
     margin: 0 10% 0 10%;
     width: 80%;
-    max-width: 1100px;
+    max-width: 900px;
 }
 
 /* Header title font style */
@@ -29,8 +29,9 @@ a:hover {
 /* Hover Effects */
 
 .expandOnHover:hover {
-    transform: translate3D(0, -1px, 0) scale(1.05);
+    transform: scale(1.05);
     transition: all 0.4s ease; /* zoom in */
+    margin: 50px 0;
 }
 
 .pink:hover {
@@ -84,6 +85,12 @@ a:hover {
 @media (min-width: 380px) {
     .header-title {
         font-size: 36px;
+    }
+}
+
+@media (min-width: 500px) {
+    .expandOnHover:hover {
+        margin: 25px 0;
     }
 }
 

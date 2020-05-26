@@ -44,9 +44,8 @@ class About extends Component {
                             <span className="highlight-green">
                                 unlock answers to the biggest issues
                             </span>{" "}
-                            the world is facing today. To help me in that
-                            journey, I'm sharpening my skills through
-                            internships at{" "}
+                            the world is facing. To help me in that journey, I'm
+                            sharpening my skills through internships at{" "}
                             <a
                                 href="http://www.wish.com"
                                 target="_blank"
