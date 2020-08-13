@@ -8,6 +8,7 @@ import cc3k from "../assets/work/cc3k_product.png";
 import mimelons from "../assets/work/mimelons_product.png";
 import dancefest from "../assets/work/dancefest_product_transparent.png";
 import website from "../assets/work/website.png";
+import image_repo from "../assets/work/image_repo.png";
 
 class ExperienceSpec {
     constructor(
@@ -32,6 +33,16 @@ class ExperienceSpec {
 }
 
 export const WorkData = [
+    //    new ExperienceSpec(
+    //        shopify_logo,
+    //        "shopify",
+    //        "backend developer intern • incoming sept 2020",
+    //        <div>coming soon!</div>,
+    //        [],
+    //        "#214D40",
+    //        "http://www.wish.com",
+    //        false
+    //    ),
     new ExperienceSpec(
         wish_logo,
         "wish",
@@ -157,7 +168,16 @@ export const ExtracurricularData = [
                 </li>
             </ul>
         ),
-        ["Student Org", "Python", "SQL", "sqlalchemy", "postgres", "Tornado"],
+        [
+            "Student Org",
+            "Python",
+            "SQL",
+            "sqlalchemy",
+            "PostgreSQL",
+            "Tornado",
+            "graphql",
+            "typescript",
+        ],
         "#183249",
         "https://hackthenorth.com/",
         false
@@ -195,6 +215,28 @@ export const ProjectData = [
             "android app",
             "An adjudication app in Kotlin to digitize the judging process for 500+ participants at an annual Ontario Secondary School dance festival.",
             ["UW Blueprint", "Android", "Kotlin", "Firebase"],
+            "#e15046",
+            "https://uwblueprint.org/",
+            true
+        ),
+        new ExperienceSpec(
+            image_repo,
+            "mnemosyne",
+            "web app",
+            "A web app that securely stores and displays images from s3 using pre-signed CloudFront urls.",
+            ["Flask", "SQLAlchemy", "PostgreSQL", "s3", "CloudFront", "heroku"],
+            "#99cbcb",
+            "",
+            true
+        ),
+    ],
+    [
+        new ExperienceSpec(
+            cc3k,
+            "chamber crawler",
+            "c++ project",
+            "A command line dungeon crawl role playing game created in C++, utilizing OOP design patterns.",
+            ["C++", "mvc"],
             "#292929",
             "https://uwblueprint.org/",
             true
@@ -212,20 +254,10 @@ export const ProjectData = [
     ],
     [
         new ExperienceSpec(
-            cc3k,
-            "chamber crawler",
-            "c++ project",
-            "A command line dungeon crawl role playing game created in C++, utilizing OOP design patterns.",
-            ["C++", "mvc"],
-            "#99cbcb",
-            "https://uwblueprint.org/",
-            true
-        ),
-        new ExperienceSpec(
             website,
             "personal website",
             "this website!",
-            "My first fully fleshed out web application. Designed in Figma, developed in React.",
+            "Designed in Figma, developed in React.",
             ["React", "JavaScript", "HTML", "CSS"],
             "#f7adae",
             "https://uwblueprint.org/",
@@ -248,7 +280,7 @@ export const PreviewData = [
         htn_logo,
         "",
         "",
-        "building Canada’s largest hackathon",
+        "building Canada’s biggest hackathon",
         [],
         "#183249",
         "",

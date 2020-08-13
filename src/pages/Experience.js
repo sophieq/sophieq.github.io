@@ -78,7 +78,7 @@ class Experience extends Component {
         ));
 
         return (
-            <div className="Experience">
+            <div className="Experience fade-in-up">
                 <div className="header-title">
                     <span className="highlight-blue">
                         cool things I've built.

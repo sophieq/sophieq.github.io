@@ -1,6 +1,6 @@
 .ExperienceCard {
     border-radius: 5px;
-    min-height: 250px;
+    min-height: 225px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;

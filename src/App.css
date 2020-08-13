@@ -15,7 +15,7 @@ a:hover {
 .content {
     margin: 0 10% 0 10%;
     width: 80%;
-    max-width: 900px;
+    max-width: 850px;
 }
 
 /* Header title font style */
@@ -160,69 +160,6 @@ a:hover {
     }
     to {
         transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-.fade-in-right {
-    animation: fadeInRight ease-in 1s;
-    -webkit-animation: fadeInRight ease-in 1s;
-    -moz-animation: fadeInRight ease-in 1s;
-    -o-animation: fadeInRight ease-in 1s;
-    -ms-animation: fadeInRight ease-in 1s;
-}
-
-@keyframes fadeInRight {
-    from {
-        transform: translateX(30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeInRight {
-    from {
-        transform: translateX(30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeInRight {
-    from {
-        transform: translateX(30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeInRight {
-    from {
-        transform: translateX(30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeInRight {
-    from {
-        transform: translateX(30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
         opacity: 1;
     }
 }

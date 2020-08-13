@@ -9,12 +9,12 @@ class About extends Component {
 
     render() {
         return (
-            <div className="About content">
+            <div className="About content fade-in-up">
                 <div className="about-content">
                     <div>
                         <img
                             loading="lazy"
-                            className="display-image fade-in-right"
+                            className="display-image"
                             src={display_pic}
                             alt="me"
                         ></img>
