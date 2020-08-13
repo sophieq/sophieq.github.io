@@ -1,5 +1,5 @@
 .PreviewCard {
-    max-width: 275px;
+    max-width: 250px;
     border-radius: 5px;
     overflow: hidden;
     margin: 20px 0;
@@ -12,12 +12,12 @@
 .image-background-color {
     display: flex;
     justify-content: center;
-    height: 175px;
+    height: 150px;
 }
 
 .preview-image {
     object-fit: contain;
-    width: 125px;
+    width: 110px;
     height: auto;
 }
 
@@ -28,7 +28,7 @@
 
 .preview-text {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -41,6 +41,6 @@
 
 @media (min-width: 900px) {
     .PreviewCard {
-        max-width: 260px;
+        max-width: 225px;
     }
 }

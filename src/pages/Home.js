@@ -79,7 +79,7 @@ function Home() {
                         I'm currently looking for{" "}
                         <span className="pink-highlight">
                             {" "}
-                            Fall 2020 Internship
+                            Summer 2021 Internship
                         </span>{" "}
                         opportunities.
                     </div>

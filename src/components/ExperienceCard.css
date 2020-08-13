@@ -54,7 +54,7 @@
 
 .ex-description {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -70,11 +70,11 @@
     } */
 
     .ex-title {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .ex-subtitle {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 

@@ -6,7 +6,7 @@
 
 .header-container {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     margin-bottom: 75px;
@@ -14,13 +14,13 @@
 }
 
 .homepage-image {
-    width: 175px;
+    width: 160px;
     height: auto;
 }
 
 .home-title {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 1.15;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -45,7 +45,7 @@
 }
 
 .social-icons {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .preview-container {
@@ -58,7 +58,7 @@
 
 .preview-title {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     padding-top: 100px;
 }
@@ -67,18 +67,12 @@
     margin-top: 20px;
     text-align: end;
     font-weight: 400;
-    font-size: 20px;
-}
-
-@media (min-width: 630px) {
-    .home-title {
-        font-size: 48px;
-    }
+    font-size: 18px;
 }
 
 @media (min-width: 768px) {
     .Home {
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
     .header-container {
@@ -94,7 +88,7 @@
     }
 
     .homepage-image {
-        width: 200px;
+        width: 160px;
         margin-bottom: 15px;
     }
 
