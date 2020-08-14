@@ -46,41 +46,40 @@ export const WorkData = [
     new ExperienceSpec(
         wish_logo,
         "wish",
-        "software engineering intern • jan - apr 2020",
+        "software engineer intern • jan - apr 2020",
         (
-            <ul>
-                <li>
-                    built the backend architecture, product selection/push
-                    notification infrastructure, and custom pricing logic for
-                    Flash Sale, a feature that showcases 100+ products on sale
-                    every 4 hours daily using Tornado, MongoDB, and SQL.
-                </li>
-                <li>
-                    implemented redesigns of the current iOS UI, resulting in a
-                    $32M increase on gross merchandise value per year.
-                </li>
-                <li>
-                    blocked over 160k fraud accounts per month by modifying the
-                    iOS app’s core requests to integrate an internal
-                    multi-factor authentication framework.
-                </li>
-                <li>
-                    reduced day 0 drop-off for new users by 12% and increased a
-                    user's lifetime value by 5%, through building new onboarding
-                    experiences.
-                </li>
-            </ul>
+            <div>
+                As part of the product team at Wish, I was responsible for
+                creating full stack features for the iOS application.{" "}
+                <div className="extra-work-info">
+                    Some highlights of my work include:
+                    <ul>
+                        <li>
+                            building the backend architecture, product
+                            selection/push notification infrastructure, and
+                            custom pricing logic for Flash Sale, a feature that
+                            showcases 100+ products on sale every 4 hours daily
+                        </li>
+                        <li>
+                            implementing redesigns of the current iOS UI,
+                            resulting in a $32M increase on gross merchandise
+                            value per year
+                        </li>
+                        <li>
+                            blocking over 160k fraud accounts per month by
+                            modifying the iOS app’s core requests to integrate
+                            an internal multi-factor authentication framework
+                        </li>
+                        <li>
+                            reducing day 0 drop-off for new users by 12% and
+                            increasing a user's lifetime value by 5%, through
+                            building new onboarding experiences
+                        </li>
+                    </ul>
+                </div>
+            </div>
         ),
-        [
-            "Internship",
-            "Python",
-            "Tornado",
-            "MongoDB",
-            "mongoengine",
-            "sql",
-            "iOS",
-            "Swift",
-        ],
+        ["Python", "Tornado", "MongoDB", "mongoengine", "sql", "iOS", "Swift"],
         "#2fb7ec",
         "http://www.wish.com",
         false
@@ -88,24 +87,34 @@ export const WorkData = [
     new ExperienceSpec(
         wattpad_logo,
         "wattpad",
-        "software engineering intern • may - aug 2019",
+        "software engineer intern • may - aug 2019",
         (
-            <ul>
-                <li>
-                    increased weekly paying users by 15% through integrating
-                    Mopub rewarded video ads into the iOS platform.
-                </li>
-                <li>
-                    piloted a coin gifting experiment to 50% of US iOS users,
-                    resulting in an estimated $10k increase in monthly revenue.
-                </li>
-                <li>
-                    automated tests for purchasing coins using XCUITest to
-                    increase code coverage on the iOS app.
-                </li>
-            </ul>
+            <div>
+                As part of the "money squad" or monetization team, I ideated new
+                ways for readers to support their favorite authors on the
+                platform.{" "}
+                <div className="extra-work-info">
+                    Some highlights of my work include:
+                    <ul>
+                        <li>
+                            increasing weekly paying users by 15% through
+                            integrating Mopub rewarded video ads into the iOS
+                            platform
+                        </li>
+                        <li>
+                            piloting a coin gifting experiment to 50% of US iOS
+                            users, resulting in an estimated $10k increase in
+                            monthly revenue
+                        </li>
+                        <li>
+                            automating tests for purchasing coins using XCUITest
+                            to increase code coverage on the iOS app
+                        </li>
+                    </ul>
+                </div>
+            </div>
         ),
-        ["Internship", "iOS", "Python", "Swift", "Objective C"],
+        ["iOS", "Python", "Swift", "Objective C"],
         "#EC6333",
         "http://www.wattpad.com",
         false
@@ -115,31 +124,31 @@ export const WorkData = [
         "td lab",
         "software developer intern • sep - dec 2018",
         (
-            <ul>
-                <li>
-                    improved component positions of a YOLOv2 machine learning
-                    app that converts paper wireframes into interactive user
-                    interfaces by adding symmetry detection logic.
-                </li>
-                <li>
-                    prototyped a real-time iOS chat app using Firestore, chosen
-                    as best solution during Hack Week
-                </li>
-                <li>
-                    pitched functional prototypes to TD Innovation EVPs for
-                    commercialization.
-                </li>
-            </ul>
+            <div>
+                At TD Lab, I worked on rapidly ideating and building minimum
+                viable products to solve pain points at TD enterprise.{" "}
+                <div className="extra-work-info">
+                    Some highlights of my work include:
+                    <ul>
+                        <li>
+                            improving component positions of a YOLOv2 machine
+                            learning app that converts paper wireframes into
+                            interactive user interfaces by adding symmetry
+                            detection logic
+                        </li>
+                        <li>
+                            prototyping a real-time iOS chat app using
+                            Firestore, chosen as best solution during Hack Week
+                        </li>
+                        <li>
+                            pitching functional prototypes to TD Innovation EVPs
+                            for commercialization
+                        </li>
+                    </ul>
+                </div>
+            </div>
         ),
-        [
-            "Internship",
-            "iOS",
-            "Python",
-            "Swift",
-            "YOLOv3",
-            "Firebase",
-            "HTML/CSS",
-        ],
+        ["iOS", "Python", "Swift", "YOLOv3", "Firebase", "HTML/CSS"],
         "#35B234",
         "https://tdlab.io/",
         false
@@ -152,24 +161,31 @@ export const ExtracurricularData = [
         "hack the north",
         "backend developer • feb 2020 - present",
         (
-            <ul>
-                <li>
-                    reducing the server load by hundreds of calls to the
-                    Postgres database through implementing JWT token issuing and
-                    validation.
-                </li>
-                <li>
-                    migrating the server code from SQLAlchemy and Python to
-                    GraphQL and Typescript to simplify data requests.
-                </li>
-                <li>
-                    collaborating with a team of 5 to manage the workshops that
-                    will run for 1000+ attendees
-                </li>
-            </ul>
+            <div>
+                As an organizer on the Hack the North team, I help maintain the
+                Hack the North server code and database. Non-tech wise, I am
+                contributing to the vision of Hack the North 2020++.{" "}
+                <div className="extra-work-info">
+                    Some things I have contributed to include:
+                    <ul>
+                        <li>
+                            reducing the server load by hundreds of calls to the
+                            Postgres database through implementing JWT token
+                            issuing and validation
+                        </li>
+                        <li>
+                            migrating the server code from SQLAlchemy and Python
+                            to GraphQL and Typescript to simplify data requests
+                        </li>
+                        <li>
+                            collaborating with a team of 5 to manage the
+                            workshops that will run for 1000+ attendees
+                        </li>
+                    </ul>
+                </div>
+            </div>
         ),
         [
-            "Student Org",
             "Python",
             "SQL",
             "sqlalchemy",
@@ -187,20 +203,27 @@ export const ExtracurricularData = [
         "blueprint",
         "project developer • sep 2018 - dec 2019",
         (
-            <ul>
-                <li>
-                    developed an Android app in Kotlin to digitize the judging
-                    process for 500+ participants at an annual Ontario dance
-                    festival.
-                </li>
-                <li>
-                    researched and prototyped an object detection machine
-                    learning pipeline to detect micro-plastics in liquids using
-                    OpenCV, LabelBox.
-                </li>
-            </ul>
+            <div>
+                As a project developer on UW Blueprint, I worked on building
+                technology to solve problems brought to us by non-profits.{" "}
+                <div className="extra-work-info">
+                    Some projects I worked on include:
+                    <ul>
+                        <li>
+                            developing an Android app in Kotlin to digitize the
+                            judging process for 500+ participants at an annual
+                            Ontario dance festival.
+                        </li>
+                        <li>
+                            researching and prototyping an object detection
+                            machine learning pipeline to detect micro-plastics
+                            in liquids using OpenCV, LabelBox.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         ),
-        ["Student Org", "Android", "Kotlin", "Python", "React"],
+        ["Android", "Kotlin", "Python", "React"],
         "#1078E9",
         "https://uwblueprint.org/",
         false
@@ -238,7 +261,7 @@ export const ProjectData = [
             "A command line dungeon crawl role playing game created in C++, utilizing OOP design patterns.",
             ["C++", "mvc"],
             "#292929",
-            "https://uwblueprint.org/",
+            "",
             true
         ),
         new ExperienceSpec(
@@ -248,7 +271,7 @@ export const ProjectData = [
             "An app that guides women through their monthly breast exam to check for lumps and irregularities. Users are able to track their past exams and symptoms.",
             ["Hack the North 2019", "iOS", "Swift", "ResNet50", "VoiceFlow"],
             "#b4c67c",
-            "https://uwblueprint.org/",
+            "",
             true
         ),
     ],
@@ -260,7 +283,7 @@ export const ProjectData = [
             "Designed in Figma, developed in React.",
             ["React", "JavaScript", "HTML", "CSS"],
             "#f7adae",
-            "https://uwblueprint.org/",
+            "",
             true
         ),
     ],

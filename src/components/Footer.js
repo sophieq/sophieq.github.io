@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="Footer content">
             <div className="header-title">
-                <span className="highlight-yellow">get connected.</span>
+                <span className="highlight-yellow">say hello.</span>
             </div>
             <div className="footer-description">
                 Think we could make something <span role="img">✨</span>magical

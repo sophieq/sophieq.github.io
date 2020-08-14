@@ -20,6 +20,10 @@
     line-height: 1.6;
 }
 
+.extra-work-info {
+    display: none;
+}
+
 .scroll-tag {
     display: flex;
     flex-direction: column;
@@ -31,6 +35,13 @@
 @media (min-width: 380px) {
     .work-title {
         font-size: 32px;
+    }
+}
+
+@media (min-width: 600px) {
+    .extra-work-info {
+        margin-top: 10px;
+        display: block;
     }
 }
 
