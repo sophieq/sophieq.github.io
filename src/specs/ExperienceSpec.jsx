@@ -4,11 +4,13 @@ import htn_logo from "../assets/work/htn_logo.png";
 import wattpad_logo from "../assets/work/wattpad_logo.png";
 import blueprint_logo from "../assets/work/blueprint_logo.png";
 import td_logo from "../assets/work/td_logo.png";
+import shopify_logo from "../assets/work/shopify_logo.png";
 import cc3k from "../assets/work/cc3k_product.png";
 import mimelons from "../assets/work/mimelons_product.png";
 import dancefest from "../assets/work/dancefest_product_transparent.png";
 import website from "../assets/work/website.png";
 import image_repo from "../assets/work/image_repo.png";
+import htn_discord from "../assets/work/htn_discord.png";
 
 class ExperienceSpec {
     constructor(
@@ -33,16 +35,41 @@ class ExperienceSpec {
 }
 
 export const WorkData = [
-    //    new ExperienceSpec(
-    //        shopify_logo,
-    //        "shopify",
-    //        "backend developer intern • incoming sept 2020",
-    //        <div>coming soon!</div>,
-    //        [],
-    //        "#214D40",
-    //        "http://www.wish.com",
-    //        false
-    //    ),
+       new ExperienceSpec(
+           shopify_logo,
+           "shopify",
+           "backend developer intern • sep - dec 2020",
+           (
+            <div>
+                As part of the self-shipping team at Shopify, I was responsible for
+                increasing merchant productivity in their shipping workflows.{" "}
+                <div className="extra-work-info">
+                    Some highlights of my work include:
+                    <ul>
+                        <li>
+                            developed features for Shipping Manifests, a web app that
+                            allows merchants to group multiple shipping labels into one
+                            scannable form, resulting in an 87% merchant adoption rate in beta
+                        </li>
+                        <li>
+                            led the development of merchant feedback user flows for
+                            the Shipping Manifests app using React and Redux
+                        </li>
+                        <li>
+                            improved store performance troubleshooting by prototyping
+                            a chrome extension that tracks version control between store
+                            theme changes and displays a user interface that compares
+                            different versions
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        ),
+           ["Ruby on Rails", "GraphQL", "TypeSript", "React", "Redux"],
+           "#95BF47",
+           "https://www.shopify.com",
+           false
+       ),
     new ExperienceSpec(
         wish_logo,
         "wish",
@@ -58,7 +85,8 @@ export const WorkData = [
                             building the backend architecture, product
                             selection/push notification infrastructure, and
                             custom pricing logic for Flash Sale, a feature that
-                            showcases 100+ products on sale every 4 hours daily
+                            showcases 100+ products on sale every 4 hours daily,
+                            resulting in a 4.91% increase in GMV
                         </li>
                         <li>
                             implementing redesigns of the current iOS UI,
@@ -233,6 +261,16 @@ export const ExtracurricularData = [
 export const ProjectData = [
     [
         new ExperienceSpec(
+            htn_discord,
+            "hack the north bot",
+            "discord bot",
+            "A Discord bot that automates registration, mentorship, sponsor <> hacker chats, and judging processes for Hack the North 2020++.",
+            ["Discord.js", "TypeScript", "GraphQL"],
+            "#183249",
+            "https://hackthenorth.com/",
+            true
+        ),
+        new ExperienceSpec(
             dancefest,
             "dancefest",
             "android app",
@@ -242,6 +280,8 @@ export const ProjectData = [
             "https://uwblueprint.org/",
             true
         ),
+    ],
+    [
         new ExperienceSpec(
             image_repo,
             "mnemosyne",
@@ -252,8 +292,6 @@ export const ProjectData = [
             "",
             true
         ),
-    ],
-    [
         new ExperienceSpec(
             cc3k,
             "chamber crawler",
@@ -264,6 +302,8 @@ export const ProjectData = [
             "",
             true
         ),
+    ],
+    [
         new ExperienceSpec(
             mimelons,
             "mi melons",
@@ -274,8 +314,6 @@ export const ProjectData = [
             "",
             true
         ),
-    ],
-    [
         new ExperienceSpec(
             website,
             "personal website",
@@ -290,6 +328,15 @@ export const ProjectData = [
 ];
 
 export const PreviewData = [
+    new ExperienceSpec(
+        shopify_logo,
+        "",
+        "",
+        "making it easier for merchants to self-ship their products",
+        [],
+        "#95BF47",
+        false
+    ),
     new ExperienceSpec(
         wish_logo,
         "",

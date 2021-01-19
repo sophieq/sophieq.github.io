@@ -47,6 +47,15 @@ class About extends Component {
                             the world is facing. To help me in that journey, I'm
                             sharpening my skills through internships at{" "}
                             <a
+                                href="http://www.shopify.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                Shopify
+                            </a>
+                            ,{" "}
+                            <a
                                 href="http://www.wish.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -81,6 +90,14 @@ class About extends Component {
                                 className="greenAccent"
                             >
                                 UW Blueprint
+                            </a>, a mentor at {" "}
+                            <a
+                                href="https://www.facebook.com/techplusuw/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="greenAccent"
+                            >
+                                Tech+ UW
                             </a>{" "}
                             and currently, I'm an organizer for{" "}
                             <a
@@ -94,8 +111,7 @@ class About extends Component {
                             .
                         </p>
                         <p>
-                            Outside of coding, I spend my days reading about
-                            greek mythology, watching Brooklyn 99, and chilling
+                            Outside of coding, I spend my days reading, trying to crochet, and chilling
                             out to{" "}
                             <a
                                 href="https://www.youtube.com/watch?v=5qap5aO4i9A"

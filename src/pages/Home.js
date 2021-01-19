@@ -48,6 +48,15 @@ function Home() {
                         creating tech solutions that will impact people in a
                         meaningful way. Previously, I've interned at{" "}
                         <a
+                            href="http://www.shopify.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="pinkAccent"
+                        >
+                            Shopify
+                        </a>
+                        ,{" "}
+                        <a
                             href="http://www.wish.com"
                             target="_blank"
                             rel="noopener noreferrer"
