@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { PreviewData } from "../specs/ExperienceSpec.jsx";
 import PreviewCard from "../components/PreviewCard";
 import homepagePhoto from "../assets/sophie-homepage.png";
-import resume from "../assets/Sophie_Qin_Resume.pdf";
 
 function Home() {
     const previewCards = PreviewData.map((data) => (
@@ -91,17 +90,6 @@ function Home() {
                             Summer 2021 Internship
                         </span>{" "}
                         opportunities.
-                    </div>
-                    <div className="home-description">
-                        Can't stay long?{" "}
-                        <a
-                            href={resume}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="pinkAccent"
-                        >
-                            Click here for a one-page summary.
-                        </a>
                     </div>
                     <div
                         className="home-description pinkAccent hover-div"

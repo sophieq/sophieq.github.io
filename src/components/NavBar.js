@@ -5,7 +5,6 @@ import About from "../pages/About";
 import Experience from "../pages/Experience";
 import Home from "../pages/Home";
 import home_icon from "../assets/home_icon.png";
-import resume from "../assets/Sophie_Qin_Resume.pdf";
 import "./NavBar.css";
 
 function NavBar(props) {
@@ -70,11 +69,11 @@ function NavBar(props) {
                         </NavItem>
                         <NavItem>
                             <a
-                                href={resume}
+                                href="mailto:hello@sophieqin.me"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <span className="nav-text yellow">resume.</span>
+                                <span className="nav-text yellow">say hello.</span>
                             </a>
                         </NavItem>
                     </Nav>

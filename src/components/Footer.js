@@ -23,7 +23,7 @@ function Footer() {
                 </a>
                 <br></br>
                 <a
-                    href="mailto:sophieeqin@gmail.com"
+                    href="mailto:hello@sophieqin.me"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="yellowAccent social-link"
