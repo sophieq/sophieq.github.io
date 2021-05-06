@@ -9,7 +9,7 @@ function Footer() {
             </div>
             <div className="footer-description">
                 Think we could make something <span role="img">✨</span>magical
-                <span role="img">✨</span> together? I'm looking for Summer 2021
+                <span role="img">✨</span> together? I'm looking for Fall 2021
                 internship opportunities. Let's chat!
             </div>
             <div className="socials">

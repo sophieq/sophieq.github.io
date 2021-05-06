@@ -111,7 +111,7 @@ class About extends Component {
                             .
                         </p>
                         <p>
-                            Outside of coding, I spend my days reading, trying to crochet, and chilling
+                            Outside of coding, I spend my days reading, learning to crochet, and chilling
                             out to{" "}
                             <a
                                 href="https://www.youtube.com/watch?v=5qap5aO4i9A"

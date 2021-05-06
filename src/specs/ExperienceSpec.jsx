@@ -332,7 +332,7 @@ export const PreviewData = [
         shopify_logo,
         "",
         "",
-        "making it easier for merchants to self-ship their products",
+        "improving the self-shipping workflow for merchants",
         [],
         "#95BF47",
         false
