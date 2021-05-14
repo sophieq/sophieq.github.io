@@ -43,9 +43,18 @@ function Home() {
                         </div>
                     </div>
                     <div className="home-description">
-                        I'm Sophie, a computer science student passionate about
+                        I'm Sophie, a fourth year computer science student passionate about
                         creating tech solutions that will impact people in a
-                        meaningful way. Previously, I've interned at{" "}
+                        meaningful way. This summer, I'll be exploring new ways to share at{" "}
+                        <a
+                            href="http://www.facebook.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="pinkAccent"
+                        >
+                            Facebook
+                        </a>.  
+                        Previously, I've interned at{" "}
                         <a
                             href="http://www.shopify.com"
                             target="_blank"

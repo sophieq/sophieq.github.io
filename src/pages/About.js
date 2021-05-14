@@ -26,7 +26,7 @@ class About extends Component {
                             </span>
                         </div>
                         <p>
-                            I’m a third year computer science student studying
+                            I’m a fourth year computer science student studying
                             at the{" "}
                             <a
                                 href="https://uwaterloo.ca"
